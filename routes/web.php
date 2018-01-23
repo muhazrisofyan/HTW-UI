@@ -12,9 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+Route::prefix('admin')->group(function(){
+
+
+  Route::get('/register', function () {
+      return redirect('/admin/login');
+  });
+  Auth::routes();
+
+  Route::group(['middleware' => 'auth'], function(){
+
+    Route::resource('perlombaan', 'LombaController');
+
+    Route::get('/dashboard', 'HomeController@index')->name('home');
+  });
+
+
+});

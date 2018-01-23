@@ -1,0 +1,21 @@
+#logo{
+  margin-top:0px;
+}
+
+#logo h2{
+  color: blue;
+}
+
+
+
+.spacing{
+  margin-top:-10px;
+}
+
+.ddwidth{
+  width: 100%;
+}
+
+.mySlides {}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
