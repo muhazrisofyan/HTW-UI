@@ -1,0 +1,47 @@
+#logo{
+  margin-top:0px;
+}
+
+#logo h2{
+  color: blue;
+}
+
+@media(min-width:800px){
+  .contactform {
+    width: 70%;
+  }
+}
+
+#grad1 {
+    background: #425954; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, #3A4C4A , black); /* Standard syntax (must be last) */
+}
+
+/* Video responsive */
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+/* End of Video Responsive css */
+.spacing{
+  margin-top:-10px;
+}
+
+.ddwidth{
+  width: 100%;
+}
+
+.mySlides {}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
