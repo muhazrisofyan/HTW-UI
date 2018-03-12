@@ -1,80 +1,53 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-    <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-
-                    <!-- Collapsed Hamburger -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
-                    </a>
-                </div>
-
-                <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="nav navbar-nav navbar-right">
-                        <!-- Authentication Links -->
-                        @guest
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
-                        @else
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                            Logout
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            {{ csrf_field() }}
-                                        </form>
-                                    </li>
-                                </ul>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        @yield('content')
+    <title></title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="logo" class="w3-panel">
+      <h2>Hydromodelling Technology and Workshop</h2>
+      <h3>Faculty of Engineering Universitas Indonesia</h2>
     </div>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-</body>
-</html>
+    <!-- Links (sit on top) -->
+    <div>
+      <div class="w3-row w3-padding w3-black">
+        <div class="w3-col s2">
+          <a href="#" class="w3-button w3-block w3-black">Home</a>
+        </div>
+        <div class="w3-dropdown-hover w3-col s2">
+          <a href="#about" class="w3-button w3-block w3-black">Profile&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <div class="w3-dropdown-content w3-bar-block w3-border ddwidth">
+            <a href="#" class="w3-bar-item w3-button">Tentang Kami</a>
+            <a href="#" class="w3-bar-item w3-button">Sejarah</a>
+            <a href="#" class="w3-bar-item w3-button">Struktur Organisasi</a>
+          </div>
+        </div>
+        <div class="w3-dropdown-hover w3-col s2">
+          <a href="#about" class="w3-button w3-block w3-black">Perlombaan&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <div class="w3-dropdown-content w3-bar-block w3-border ddwidth">
+            <a href="#" class="w3-bar-item w3-button">Internasional</a>
+            <a href="#" class="w3-bar-item w3-button">Nasional</a>
+          </div>
+        </div>
+        <div class="w3-col s2">
+          <a href="#where" class="w3-button w3-block w3-black">Gallery</a>
+        </div>
+        <div class="w3-col s2">
+          <a href="#where" class="w3-button w3-block w3-black">Shop</a>
+        </div>
+        <div class="w3-col s2">
+          <a href="#where" class="w3-button w3-block w3-black">Contact Us</a>
+        </div>
+      </div>
+    </div>
+
+    @yield('content')
+
+
+      </body>
+    </html>
