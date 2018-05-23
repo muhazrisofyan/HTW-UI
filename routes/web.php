@@ -23,6 +23,9 @@ Route::get('/contact', function () {
     return view('pages.contact');
 });
 
+Route::get('/gallery', function() {
+    return view('pages.gallery');
+});
 
 
 Route::prefix('admin')->group(function(){
@@ -39,6 +42,4 @@ Route::prefix('admin')->group(function(){
 
     Route::get('/dashboard', 'HomeController@index')->name('home');
   });
-
-
 });
