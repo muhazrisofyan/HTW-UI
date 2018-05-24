@@ -32,8 +32,8 @@
       <div class="w3-dropdown-hover  w3-right">
         <a href="#about" class="w3-button w3-hover-blue w3-text-grey">Perlombaan&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
         <div class="w3-dropdown-content w3-bar-block w3-border ddwidth">
-          <a href="#" class="w3-bar-item w3-button">Internasional</a>
-          <a href="#" class="w3-bar-item w3-button">Nasional</a>
+          <a href="/lomba/internasional" class="w3-bar-item w3-button">Internasional</a>
+          <a href="/lomba/nasional" class="w3-bar-item w3-button">Nasional</a>
         </div>
       </div>
       <div class="w3-right">

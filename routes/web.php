@@ -27,6 +27,23 @@ Route::get('/gallery', function() {
     return view('pages.gallery');
 });
 
+Route::prefix('lomba')->group(function(){
+    Route::get('/internasional',function(){
+      return view('pages.internasional');
+    });
+    Route::get('/nasional',function(){
+      return view('pages.nasional');
+    });
+
+    Route::get('/internasional/sbt',function(){
+      return view('pages.sbt');
+    });
+
+    Route::get('/internasional/hydros',function(){
+      return view('pages.hydros');
+    });
+});
+
 
 Route::prefix('admin')->group(function(){
 
