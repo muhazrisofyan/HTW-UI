@@ -19,7 +19,7 @@
     <div class="w3-row">
       <h3 class="w3-left" style="margin-top:-1px;margin-left:20px">Faculty of Engineering Universitas Indonesia</h3>
       <div class="w3-right">
-        <a href="contact" class="w3-button w3-hover-blue w3-text-grey">Contact Us</a>
+        <a href="/contact" class="w3-button w3-hover-blue w3-text-grey">Contact Us</a>
       </div>
       <div class="w3-dropdown-hover  w3-right">
         <a class="w3-button w3-hover-blue w3-text-grey">Profile&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
@@ -49,7 +49,11 @@
     @yield('content')
 
 {{-- Footer --}}
+  <div style="height:100px">
 
+  </div>
 {{-- End of Footer --}}
+      @yield('script')
+
   </body>
 </html>

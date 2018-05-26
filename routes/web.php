@@ -34,16 +34,43 @@ Route::prefix('lomba')->group(function(){
     Route::get('/nasional',function(){
       return view('pages.nasional');
     });
-
     Route::get('/internasional/sbt',function(){
       return view('pages.sbt');
     });
-
     Route::get('/internasional/hydros',function(){
       return view('pages.hydros');
     });
+    Route::get('/nasional/alpha',function(){
+      return view('nasional.alpha');
+    });
+    Route::get('/nasional/arafuru',function(){
+      return view('nasional.arafuru');
+    });
+    Route::get('/nasional/baby',function(){
+      return view('nasional.baby');
+    });
+    Route::get('/nasional/kria',function(){
+      return view('nasional.kria');
+    });
+    Route::get('/nasional/leviathan',function(){
+      return view('nasional.leviathan');
+    });
+    Route::get('/nasional/poseidon',function(){
+      return view('nasional.poseidon');
+    });
+    Route::get('/nasional/rocky',function(){
+      return view('nasional.rocky');
+    });
+    Route::get('/nasional/vmax',function(){
+      return view('nasional.vmax');
+    });
 });
 
+Route::prefix('gallery')->group(function(){
+  Route::get('2018', function(){
+    return view('gallery.2018');
+  });
+});
 
 Route::prefix('admin')->group(function(){
 
