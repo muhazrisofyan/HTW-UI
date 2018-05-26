@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="w3-display-container" style="height:200px">
-  <img class="w3-display-middle" src="img/logo/logo.png" alt="Logo HTW" style="width:10%">
+  <img class="w3-display-middle" src="img/logo/logo.png" alt="Logo HTW" style="width:30%">
 </div>
 
 <div id="about" class="w3-card-4 w3-round-large w3-white w3-content w3-container w3-padding-16" style="width:1300px;margin:0 auto">

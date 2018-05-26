@@ -46,6 +46,9 @@
 {{-- End of Header --}}
   </div>
 
+    <img src="/images/a.png" class="w3-display-topleft w3-opacity-max" style="width:45%;z-index: -2;position:fixed">
+    <img src="/images/b.png" class="w3-display-right w3-opacity-max" style="width:60%;z-index: -2;position:fixed">
+
     @yield('content')
 
 {{-- Footer --}}

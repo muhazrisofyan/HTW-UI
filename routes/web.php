@@ -67,8 +67,14 @@ Route::prefix('lomba')->group(function(){
 });
 
 Route::prefix('gallery')->group(function(){
-  Route::get('2018', function(){
-    return view('gallery.2018');
+  Route::get('/category',function(){
+    return view('gallery.category');
+  });
+  Route::get('/2018/kegiatan',function(){
+    return view('gallery.2018kegiatan');
+  });
+  Route::get('/2018/lomba',function(){
+    return view('gallery.2018lomba');
   });
 });
 
