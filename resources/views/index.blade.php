@@ -10,20 +10,52 @@
   </div>
 </div>
 
-<div class="w3-card-4 w3-round-large w3-white" style="width:1300px;height:220px;margin:0 auto;margin-top:60px">
-  <div class="w3-container w3-row">
+<div class="w3-card-4 w3-round-large w3-white" style="width:90%;margin:0 auto;margin-top:60px;">
+  <div class="w3-container w3-row" style="padding-bottom:20px">
     <div class="w3-col m4 l3">
-      <img src="/img/home/img_nature_wide.jpg" style="width:100%;height:180px;margin-top:20px">
+      <img src="/img/internasional/hydros/a.jpg" style="width:100%;height:180px;margin-top:20px">
     </div>
-    <div class="w3-col w3-container m8 l9">
-      <h2>Presiden Jokowi Groundbreaking Double Track Bogor</h2>
-        <table class="spacing">
-          <td><i class="far fa-calendar-alt"></i></td>
-          <td><p>tanggal</p></td>
-        </table>
-      <p class="spacing">Presiden Jokowi Groundbreaking Double Track Bogor Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-      <button class="w3-button w3-red" type="button" name="button">Read More&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i></button>
+    <div class="w3-col w3-container m8 l9" style="position:relative">
+      <h2>Hydros Team Universitas Indonesia</h2>
+      <p class="spacing">Tim Hydros Universitas Indonesia telah mengikuti kompetisi ini selama 2 tahun,
+        dimana di tahun 2017 tim ini berhasil membawa pulang salah satu piala Hydrocontest atas ...</p>
+      <a class="w3-btn w3-red" href="/lomba/internasional/hydros" style="bottom:0px;position:relative;">
+        Read More&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="w3-card-4 w3-round-large w3-white w3-hide-large" style="width:90%;margin:0 auto;margin-top:60px;">
+  <div class="w3-container w3-row" style="padding-bottom:20px">
+    <div class="w3-col m4 l3">
+      <img src="/img/internasional/sbt/b.jpg" style="width:100%;height:180px;margin-top:20px">
+    </div>
+    <div class="w3-col w3-container m8 l9" style="position:relative">
+      <h2>Solar Boat Team Universitas Indonesia</h2>
+      <p class="spacing">Universitas Indonesia Solar Boat Team (UI SBT), is a group of engineering
+      students of the Universitas Indonesia that have an interest in the field of ...</p>
+      <a class="w3-btn w3-red" href="/lomba/internasional/sbt" style="bottom:0px;position:relative;">
+        Read More&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="w3-card-4 w3-round-large w3-white w3-hide-large" style="width:90%;margin:0 auto;margin-top:60px;">
+  <div class="w3-container w3-row" style="padding-bottom:20px">
+    <div class="w3-col m4 l3">
+      <img src="/img/internasional/sbt.jpg" style="width:100%;height:180px;margin-top:20px">
+    </div>
+    <div class="w3-col w3-container m8 l9" style="position:relative">
+      <h2>Tentang HTW</h2>
+      <p class="spacing">
+        Hydromodelling Technology and Workshop Universitas Indonesia (HTW UI)
+        adalah sebuah klub peminatan departemen yang ada di Departemen Teknik Mesin ...
+      </p>
+      <a class="w3-btn w3-red" href="/about" style="bottom:0px;position:relative;">
+        Read More&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+      </a>
     </div>
   </div>
 </div>

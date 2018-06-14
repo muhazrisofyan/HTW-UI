@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-  <div class="w3-content">
+  <div class="w3-content w3-container">
     <h1 class="w3-center">Hydros Team Universitas Indonesia</h1>
     <img src="/img/internasional/hydros/a.jpg" style="width:100%;">
     <h2>About Us</h2>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="w3-content">
+<div class="w3-content w3-container">
   <h1 class="w3-center">Poseidon Team</h1>
   <img src="/img/nasional/pos1.jpg" style="width:100%;margin-top:20px">
 

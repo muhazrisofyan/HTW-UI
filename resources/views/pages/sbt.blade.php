@@ -1,11 +1,12 @@
 @extends('layouts.master')
 
 @section('content')
-  <div class="w3-content">
+  <div class="w3-content w3-container">
     <h1 class="w3-center">Solar Boat Team Universitas Indonesia</h1>
     <img src="/img/internasional/sbt/b.jpg" style="width:100%;">
     <h2>About Us</h2>
-    <p>Universitas Indonesia Solar Boat Team (UI SBT), is a group of engineering
+    <p style="text-align: justify;text-justify: inter-word;">
+      Universitas Indonesia Solar Boat Team (UI SBT), is a group of engineering
       students of the Universitas Indonesia that have an interest in the field of
       renewable energy, particularly in the field of solar energy. It is triggered
       by the issue of global warming are rife discussed by the world community.
