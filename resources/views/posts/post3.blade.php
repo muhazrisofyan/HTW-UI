@@ -3,45 +3,77 @@
 @section('content')
 
 <div id="about" class="w3-card-4 w3-round-large w3-white w3-content w3-container w3-padding-16" style="width:1300px;margin:0 auto;margin-top:80px">
-    <h1 class="w3-center">Tentang HTW</h1>
-    <p style="text-align:justify">Hydromodelling Technology and Workshop Universitas Indonesia (HTW UI) adalah
-      sebuah klub peminatan departemen yang ada di Departemen Teknik Mesin, Fakultas
-      Teknik, Universitas Indonesia. Klub ini mewadahi minat dan bakat para mahasiswa
-      di bidang kemaritiman. Kegiatan yang menjadi fokus dari HTW UI adalah pembuatan
-      kapal Remote Control (RC Boat) untuk dilombakan, pembuatan maket kapal, lomba
-      karya tulis ilmiah, dan lomba internasional Solar Boat Team dan Hydrocontest.</p>
+    <h1>Grand Opening HTW UI 2018</h1><br><br>
+    <p>
+      Ahoy, Captain!
+      <br>Demi mengenalkan program kerja HTW UI 2018 selama satu tahun ke depan, HTW UI 2018 telah melaksanakan acara Grand Opening HTW UI 2018 pada 31 Januari 2018 di  Ruang EC.303, Gedung Engineering Center Fakultas Teknik, Universitas Indonesia.
+    </p>
 
-    <p><strong>Nilai</strong></p>
-    <p>Terdapat 3 Nilai yang dibawa oleh HTW UI 2018:</p>
-    <ol>
-      <li>Bermanfaat</li>
-      <li>Bersahabat</li>
-      <li>Berprestasi</li>
-    </ol>
     <br>
-    <p><strong>Visi</strong></p>
-    <p>Terwujudnya HTW UI 2018 sebagai lembaga yang <br> Bermanfaat, Bersahabat, dan
-      Berprestasi dalam kancah Nasional maupun Internasional</p>
-    <br>
-    <p><strong>Misi</strong></p>
-    <ol>
-      <li>Mewadahi minat dan bakat member HTW UI 2018 dalam mengaplikasikan keilmuan di bidang kemaritiman.</li>
-      <li>Meningkatkan hubungan baik antar HTW dengan member, dosen, dan alumni, serta lembaga lainnya.</li>
-      <li>Mempersiapkan member HTW UI agar siap berkontribusi untuk HTW, UI, dan Indonesia.</li>
-    </ol>
-    <br>
-    <p><strong>Slogan</strong></p>
-    <p>Gloria Eterna memiliki arti "<b><i>Kejayaan yang Abadi</i></b>" yang diambil dari bahasa Spanyol.</p>
-    <p>Gloria berarti <b>KEJAYAAN</b>. Melambangkan kiprah HTW UI 2018 dalam perlombaan dan riset di bidang kemaritiman yang selalu "Berprestasi" dan berdaya saing tinggi.</p>
-    <p>Eterna berarti <b>KEABADIAN</b>. Keabadian yang tercermin dari HTW UI yang menebar "Kebermanfaatan" dan "Pershabatan" bagi segala kalangan.</p>
-    <p>Pada akhirnya, prestasi dan kejayaan HTW UI diharapkan terus abadi pada seluruh member dan juga menebar kebermanfaatan untuk bangsa Indonesia.</p>
-    <br>
-
-    <div class="w3-row w3-content w3-container">
-        <div class="video-container">
-          <iframe style="max-width:100%;height:100%" src="https://www.youtube.com/embed/_mnyUyIWn9I" ></iframe>
-        </div>
+    <div class="w3-center">
+      <img src="/img/posts/post3/1.png" style="width:100%;max-width:700px;margin-top:20px">
     </div>
+    <p>Grand Opening dimulai dengan sambutan sekaligus presentasi Lembaga HTW UI 2018 oleh Ketua (Khalif Arrahman Amin, K’15) dan Wakil Ketua (Syahdhan Chairman, K’15) HTW UI 2018.</p>
+    <br>
+
+    <br>
+    <div class="w3-center">
+      <img src="/img/posts/post3/2.png" style="width:100%;max-width:700px;margin-top:20px">
+    </div>
+    <p>Presentasi dilanjutkan oleh bidang Research and Development (RnD) yang dibawakan oleh Ketua (Josafat Anhar, K’16) dan Wakil Ketua (Angga Arianda, K’16) Bidang RnD.</p>
+    <br>
+
+    <br>
+    <div class="w3-center">
+      <img src="/img/posts/post3/3.png" style="width:100%;max-width:700px;margin-top:20px">
+    </div>
+    <p>Bidang berikutnya adalah Kesekretariatan (Kestari) dengan 3 wanita yang menjadi BPH-nya, yaitu Nadhilah (K’16, Ketua), Alda (K’16, Wakil), dan Ayu (K’16, Wakil).</p>
+    <br>
+
+    <br>
+    <div class="w3-center">
+      <img src="/img/posts/post3/4.png" style="width:100%;max-width:300px;max-height: 500px;margin-top:20px">
+    </div>
+    <p>Kemudian, presentasi dilanjutkan oleh bidang Humas Internal yang dibawakan oleh Darfian Ruswifaqa (M’16, Ketua), dan Sangga Mujahid (K’16, Wakil).</p>
+    <br>
+
+    <br>
+    <div class="w3-center">
+      <img src="/img/posts/post3/5.png" style="width:100%;max-width:700px;margin-top:20px">
+    </div>
+    <p>Setelah Humas Internal, bidang Humas Eksternal maju untuk mempresentasikan bidangnya. Presentasi dibawakan oleh Raihan Setiawan (K’16, Wakil) dan Michael Antonius (DTM’17, Staff)</p>
+    <br>
+
+    <br>
+    <div class="w3-center">
+      <img src="/img/posts/post3/6.png" style="width:100%;max-width:700px;margin-top:20px">
+    </div>
+    <p>Bidang berikutnya adalah salah satu bidang terbesar di HTW UI 2018, yaitu Bidang Perlombaan. Presentasi bidang Perlombaan dibawakan oleh ketua bidang tersebut, Naufal YP (K’16), beserta jajaran staffnya.</p>
+    <br>
+
+    <br>
+    <div class="w3-center">
+      <img src="/img/posts/post3/7.png" style="width:100%;max-width:700px;margin-top:20px">
+    </div>
+    <p>Terakhir, presentasi ditutup oleh bidang yang bertanggung jawab terhadap keuangan HTW UI, yaitu Kebendaharaan. Presentasi dibawakan oleh Irfan Zaki (K’16, Ketua) dan Hilwa Hudiya (K’16, Wakil).</p>
+    <br>
+
+    <br>
+    <div class="w3-center">
+      <img src="/img/posts/post3/8.png" style="width:100%;max-width:700px;margin-top:20px">
+    </div>
+    <p>Setelah seluruh presentasi selesai, diadakan games yang diikuti oleh para peserta, yang diakhiri dengan penyerahan hadiah oleh Ketua HTW UI 2018.</p>
+    <br>
+
+    <br>
+    <div class="w3-center">
+      <img src="/img/posts/post3/9.png" style="width:100%;max-width:300px;max-height: 500px;margin-top:20px">
+    </div>
+    <p>
+      Terakhir, acara Grand Opening HTW UI 2018 ditutup dengan sambutan oleh Dosen Pembimbing HTW UI 2018, Bapak Arif.<br><br>
+      Dengan terlaksananya acara Grand Opening ini, HTW UI 2018 berharap seluruh warga dan pihak terkait dapat memahami arah tujuan HTW UI 2018.
+    </p>
+    <br>
 </div>
 
 @endsection

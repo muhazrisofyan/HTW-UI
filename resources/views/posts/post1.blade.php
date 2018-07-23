@@ -11,8 +11,11 @@
       <br><br>Gloria Eterna
     </p>
 
-    <img src="/img/posts/post1/1.png" style="width:100%;margin-top:20px">
-    <img src="/img/posts/post1/2.png" style="width:100%;margin-top:20px">
+    <div class="w3-center">
+      <img src="/img/posts/post1/1.png" style="width:100%;max-width: 700px;margin-top:20px;"><br>
+      <img src="/img/posts/post1/2.png" style="width:100%;max-width: 700px;margin-top:20px">
+    </div>
+
 
 </div>
 
