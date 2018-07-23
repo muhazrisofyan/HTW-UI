@@ -1,11 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="w3-display-container" style="height:200px">
-  <img class="w3-display-middle" src="img/logo/logo.png" alt="Logo HTW" style="width:30%">
-</div>
 
-<div id="about" class="w3-card-4 w3-round-large w3-white w3-content w3-container w3-padding-16" style="width:1300px;margin:0 auto">
+<div id="about" class="w3-card-4 w3-round-large w3-white w3-content w3-container w3-padding-16" style="width:1300px;margin:0 auto;margin-top:80px">
     <h1 class="w3-center">Tentang HTW</h1>
     <p style="text-align:justify">Hydromodelling Technology and Workshop Universitas Indonesia (HTW UI) adalah
       sebuah klub peminatan departemen yang ada di Departemen Teknik Mesin, Fakultas
@@ -23,7 +20,7 @@
     </ol>
     <br>
     <p><strong>Visi</strong></p>
-    <p>Terwujudnya HTW UI 2018 sebagai lembaga yang Bermanfaat, Bersahabat, dan
+    <p>Terwujudnya HTW UI 2018 sebagai lembaga yang <br> Bermanfaat, Bersahabat, dan 
       Berprestasi dalam kancah Nasional maupun Internasional</p>
     <br>
     <p><strong>Misi</strong></p>
@@ -42,7 +39,7 @@
 
     <div class="w3-row w3-content w3-container">
         <div class="video-container">
-          <iframe style="max-width:100%;height:100%" src="https://www.youtube.com/embed/lp-EO5I60KA" ></iframe>
+          <iframe style="max-width:100%;height:100%" src="https://www.youtube.com/embed/_mnyUyIWn9I" ></iframe>
         </div>
     </div>
 </div>
@@ -59,7 +56,7 @@
 </div>
 
 <div id="struktur" class="w3-card-4 w3-round-large w3-white w3-container w3-content w3-padding-16" style="width:1300px;margin:0 auto;margin-top:100px">
-  <h1 class="w3-center">Struktur Organisasi</h1>
+  <h1 class="w3-center">Badan Pengurus HTW UI 2018</h1>
 
   <div class="w3-content w3-display-container">
     <img class="mySlides" src="/images/banner.png" style="width:100%;">

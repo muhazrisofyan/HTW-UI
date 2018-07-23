@@ -78,6 +78,18 @@ Route::prefix('gallery')->group(function(){
   });
 });
 
+Route::prefix('post')->group(function(){
+  Route::get('/1', function(){
+    return view('posts.post1');
+  });
+  Route::get('/2', function(){
+    return view('posts.post2');
+  });
+  Route::get('/3', function(){
+    return view('posts.post3');
+  });
+});
+
 Route::prefix('admin')->group(function(){
 
 
