@@ -105,3 +105,11 @@ Route::prefix('admin')->group(function(){
     Route::get('/dashboard', 'HomeController@index')->name('home');
   });
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

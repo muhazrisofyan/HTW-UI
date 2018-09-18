@@ -5,8 +5,8 @@
 <div id="about" class="w3-card-4 w3-round-large w3-white w3-content w3-container w3-padding-16" style="width:1300px;margin:0 auto;margin-top:80px">
     <h1 class="w3-center">Tentang HTW</h1>
     <p style="text-align:justify">&emsp;Hydromodelling Technology and Workshop Universitas Indonesia (HTW UI) adalah
-      sebuah klub peminatan departemen yang ada di Departemen Teknik Mesin, Fakultas
-      Teknik, Universitas Indonesia. Klub ini mewadahi minat dan bakat para mahasiswa
+      sebuah kelompok peminatan departemen yang ada di Departemen Teknik Mesin, Fakultas
+      Teknik, Universitas Indonesia. Kelompok ini mewadahi minat dan bakat para mahasiswa
       di bidang kemaritiman. Kegiatan yang menjadi fokus dari HTW UI adalah pembuatan
       kapal Remote Control (RC Boat) untuk dilombakan, pembuatan maket kapal, lomba
       karya tulis ilmiah, dan lomba internasional Solar Boat Team dan Hydrocontest.
@@ -34,7 +34,7 @@
     <p><strong>Slogan</strong></p>
     <p>Gloria Eterna memiliki arti "<b><i>Kejayaan yang Abadi</i></b>" yang diambil dari bahasa Spanyol.</p>
     <p>Gloria berarti <b>KEJAYAAN</b>. Melambangkan kiprah HTW UI 2018 dalam perlombaan dan riset di bidang kemaritiman yang selalu "Berprestasi" dan berdaya saing tinggi.</p>
-    <p>Eterna berarti <b>KEABADIAN</b>. Keabadian yang tercermin dari HTW UI yang menebar "Kebermanfaatan" dan "Pershabatan" bagi segala kalangan.</p>
+    <p>Eterna berarti <b>KEABADIAN</b>. Keabadian yang tercermin dari HTW UI yang menebar "Kebermanfaatan" dan "Persahabatan" bagi segala kalangan.</p>
     <p>Pada akhirnya, prestasi dan kejayaan HTW UI diharapkan terus abadi pada seluruh member dan juga menebar kebermanfaatan untuk bangsa Indonesia.</p>
     <br>
 
@@ -126,15 +126,9 @@
   <h1 class="w3-center">Badan Pengurus HTW UI 2018</h1>
 
   <div class="w3-content w3-display-container">
-    <img class="mySlides" src="/images/banner.png" style="width:100%;">
-    <img class="mySlides" src="/images/struktur/1.jpg" style="width:100%;">
-    <img class="mySlides" src="/images/struktur/2.jpg" style="width:100%;">
-    <img class="mySlides" src="/images/struktur/3.jpg" style="width:100%;">
-    <img class="mySlides" src="/images/struktur/4.jpg" style="width:100%;">
-    <img class="mySlides" src="/images/struktur/5.jpg" style="width:100%;">
-    <img class="mySlides" src="/images/struktur/6.jpg" style="width:100%;">
-    <img class="mySlides" src="/images/struktur/7.jpg" style="width:100%;">
-    <img class="mySlides" src="/images/struktur/8.jpg" style="width:100%;">
+    @for ($i=0; $i < 9; $i++)
+      <img class="mySlides" src="/images/struktur/{{$i}}.jpg" style="width:100%;">
+    @endfor
     <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
